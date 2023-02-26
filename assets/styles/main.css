@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 html {
     height: 100%;
 }
@@ -14,4 +18,36 @@ body {
     background-image: url("/assets/pictures/background_img.jpg");
     background-size: cover;
     background-attachment: fixed;
+}
+
+.background_transparent {
+    min-height: 100vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #00050f;
+    opacity: 80%;
+}
+
+table.locations {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr.locations {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.location_images {
+    height: 150px;
+    width: 260px;
+}
+
+select.menu {
+    margin-top: 2%;
+    margin-left: 2%;
+    background: #00050f;
+    color: aliceblue;
+    border: none;
 }

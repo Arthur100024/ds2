@@ -1,0 +1,14 @@
+h1.title_text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h3.location_name {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+a.a_hrefs {
+    text-decoration: none;
+}
+
