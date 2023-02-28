@@ -12,6 +12,31 @@
     </head>
     <body class="background">
         <div class="background_transparent">
+
+            <div>
+                <select class="menu" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option disabled selected>Меню</option>
+                    <option value="/Locations.html">Локации</option>
+                    <option value="/Interworld.html">Междумирье</option>
+                    <option value="/Milibeth.html">Милибет</option>
+                </select>
+                <a href="/SiteInfo.html">
+                    <img class="site_info" src="assets/pictures/info.png">
+                </a>
+                <h1 class="title_text">Медиа сети</h1>
+            </div>
+
+            <br>
+            <div>
+                <img class="contacts" src="assets/pictures/telegram.png">
+                <h3 class="contacts">Telegram</h3>
+            </div>
+            <br>
+            <div>
+                <img class="contacts" src="assets/pictures/vk.png">
+                <h3 class="contacts">VK</h3>
+            </div>
+
         </div>
     </body>
 </html>

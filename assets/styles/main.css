@@ -66,3 +66,14 @@ select.menu {
     border: none;
 }
 
+iframe.youtube_videos {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+img.contacts {
+    display: block;
+    margin: 0 auto;
+}
+

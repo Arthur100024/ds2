@@ -36,6 +36,11 @@ h3.descryption{
     color: rgb(255, 255, 255);
 }
 
+h3.contacts {
+    text-align: center;
+    color: aliceblue;
+}
+
 li.notes{
     text-align: left;
     margin-left: 7%;
