@@ -40,24 +40,6 @@ tr.locations {
     margin-right: auto;
 }
 
-img.location_images_small {
-    max-height: auto;
-    height: 150px;
-    width: 260px;
-}
-
-img.location_images {
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-}
-
-img.site_info {
-    display: block;
-    margin-left:95%;
-    width: 30px;
-}
-
 select.menu {
     margin-top: 2%;
     margin-left: 2%;
@@ -71,9 +53,3 @@ iframe.youtube_videos {
     margin: 0 auto;
     padding-bottom: 20px;
 }
-
-img.contacts {
-    display: block;
-    margin: 0 auto;
-}
-

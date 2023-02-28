@@ -1,0 +1,22 @@
+img.site_info {
+    display: block;
+    margin-left:95%;
+    width: 30px;
+}
+
+img.location_images_small {
+    max-height: auto;
+    height: 150px;
+    width: 260px;
+}
+
+img.location_images {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+img.contacts {
+    display: block;
+    margin: 0 auto;
+}
