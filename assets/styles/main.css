@@ -23,10 +23,11 @@ body {
 .background_transparent {
     min-height: 100vh;
     width: 80%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    background: #00050f;
-    opacity: 80%;
+    background: rgba(0, 0, 0, 0.8);
+    filter: alpha(opacity=20);
 }
 
 table.locations {
@@ -39,9 +40,22 @@ tr.locations {
     margin-right: auto;
 }
 
-img.location_images {
+img.location_images_small {
+    max-height: auto;
     height: 150px;
     width: 260px;
+}
+
+img.location_images {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+img.site_info {
+    display: block;
+    margin-left:95%;
+    width: 30px;
 }
 
 select.menu {
@@ -51,3 +65,4 @@ select.menu {
     color: aliceblue;
     border: none;
 }
+

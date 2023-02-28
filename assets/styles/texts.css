@@ -10,5 +10,35 @@ h3.location_name {
 
 a.a_hrefs {
     text-decoration: none;
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(165, 149, 3);
 }
 
+h2.title_text{
+    text-align: left;
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+}
+
+h3.quote{
+    text-align: left;
+    margin-left: 7%;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+h3.descryption{
+    text-align: left;
+    text-align: justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: rgb(255, 255, 255);
+}
+
+li.notes{
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: rgb(255, 255, 255);
+}
