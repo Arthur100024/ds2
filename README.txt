@@ -1,0 +1,5 @@
+ID приложения	51568662
+Защищённый ключ NlgLvB2ZugO9f7KaZtTn
+Сервисный ключ доступа	
+9fad58ce9fad58ce9fad58ce4a9cbfb8d899fad9fad58cefc53d9f3ed586d312c3b3b74
+
