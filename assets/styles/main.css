@@ -9,18 +9,27 @@ html {
 body {
     padding: 0;
     margin: 0;
-}
-
-.background {
-    min-height: 100vh;
-    width: 100%;
     background: #252525;
-    background-image: url("/assets/pictures/background_img.jpg");
+    background-image: url("/assets/pictures/system/background_img.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
-.background_transparent {
+header {
+    background: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=20);
+}
+
+div.header_background_transparent {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=20);
+}
+
+div.background_transparent {
     min-height: 100vh;
     width: 80%;
     display: block;
@@ -28,6 +37,10 @@ body {
     margin-right: auto;
     background: rgba(0, 0, 0, 0.8);
     filter: alpha(opacity=20);
+}
+
+div.horizontal_block {
+    display: flex;
 }
 
 table.locations {
@@ -42,7 +55,10 @@ tr.locations {
 
 select.menu {
     margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 2%;
+    padding-inline: 15px;
+    padding-block: 5px;
     background: #00050f;
     color: aliceblue;
     border: none;

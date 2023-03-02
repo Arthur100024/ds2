@@ -11,7 +11,20 @@
         <link rel="stylesheet" href="assets/styles/styles.css">
     </head>
     <body>
-        <div class="background">
+        <header>
+            <div class="header_background_transparent">
+                <select class="menu" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option disabled selected>Локации</option>
+                    <option value="/Interworld.html">Междумирье</option>
+                </select>
+                <select class="menu" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option disabled selected>Персонажи</option>
+                    <option value="/Milibeth.html">Милибет</option>
+                </select>
+            </div>
+        </header>
+
+        <main>
             <div class="background_transparent">
                 <div>
                     <br>
@@ -48,6 +61,6 @@
                     </tr>
                 </table>
             </div>
-        </div>
+        </main>
     </body>
 </html>
