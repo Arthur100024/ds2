@@ -20,3 +20,20 @@ img.contacts {
     display: block;
     margin: 0 auto;
 }
+
+img.site_icon {
+    width: 40px;
+    display: block;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 40%;
+
+}
+
+img.profile_icon {
+    width: 40px;
+    display: block;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 40%;
+}
